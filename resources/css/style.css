@@ -1,4 +1,4 @@
-body {
+	body {
 	margin: 0;
 	font-family: Helvetica;
 	font-size: 22px;
@@ -9,7 +9,6 @@ body {
 
 .flex-container {
 	display: flex;
-	justify-content: center;
 	flex-wrap: wrap;
 }
 
@@ -51,8 +50,30 @@ header {
 .mission {
 	display: flex;
 	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+	width: 1200px;
 	height: 700px;
 	padding-top: 70px;
+}
+
+.text-banner {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+.main {
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 70px;
+}
+
+/* Mission Section */
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
 }
 
 h2 {
